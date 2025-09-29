@@ -1,12 +1,12 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **Swift**
 
-## Project: **X**
+## Project: **Student Success App**
 
 ---
 
-### X/X/XX:
+### 9/29/25:
 * Text
 
 ### X/X/XX:
