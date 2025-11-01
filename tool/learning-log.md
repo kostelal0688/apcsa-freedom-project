@@ -30,7 +30,10 @@ print("Hello, \(name)!")
 * **Documentation & Guides:**
 * [Apple SwiftUI List Documentation](https://developer.apple.com/documentation/swiftui/list) – Shows how to create lists, sections, and manage dynamic data.
 * [Swift.org Basics](https://www.swift.org/getting-started/) – Simple guide for absolute beginners to understand Swift syntax and variables.
+* [W3Schools Swift Tutorial](https://www.w3schools.com/swift/) - Very simple beginner-focused guide to Swift syntax and examples.
+* [Swift Cheat Sheet](https://learnxinyminutes.com/swift/) – Quick reference for Swift syntax and commands for beginners.
 * **Next Steps:**
+  * Try making a small project to practice everything I’ve learned. 
 
 <!-- 
 * Links you used today (websites, videos, etc)
