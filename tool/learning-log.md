@@ -21,10 +21,16 @@ Example of Swift Code :
 let name = "Kostela"
 print("Hello, \(name)!")
 ```
+   * `let` creates a constant (a value that doesn’t change)
+   * `print()` shows text on the screen
+   * `\(name)` inserts the value of name into the message
 * **Videos Watched**
    * [SwiftUI Tutorial for Beginners – Lists & Data](https://www.youtube.com/watch?v=F2ojC6TNwws) - Covers displaying multiple items, dynamic lists, and binding data with @State.
    * [SwiftUI Fundamentals Full Course](https://www.youtube.com/watch?v=b1oC7sLIgpI) - Beginner-friendly full course, including UI elements and state management.
-
+* **Documentation & Guides:**
+* [Apple SwiftUI List Documentation](https://developer.apple.com/documentation/swiftui/list) – Shows how to create lists, sections, and manage dynamic data.
+* [Swift.org Basics](https://www.swift.org/getting-started/) – Simple guide for absolute beginners to understand Swift syntax and variables.
+* **Next Steps:**
 
 <!-- 
 * Links you used today (websites, videos, etc)
