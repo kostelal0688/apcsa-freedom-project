@@ -45,8 +45,8 @@ print("Hello, \(name)!")
 * [Complete Guide to Navigation in SwiftUI with NavigationStack (Article)](https://dev.to/yossabourne/complete-guide-to-navigation-in-swiftui-with-navigationstack-3npn)
     * Got a step-by-step breakdown of how a navigation stack works.
     * Learned how to create dynamic navigation where the destination depends on a data model.
-    * Understood that NavigationStack is more scalable for real apps with many screens.
-    * Helped clarify when to use NavigationDestination vs. just pushing a view normally.
+    * Understood that `NavigationStack` is more scalable for real apps with many screens.
+    * Helped clarify when to use `NavigationDestination` vs. just pushing a view normally.
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
