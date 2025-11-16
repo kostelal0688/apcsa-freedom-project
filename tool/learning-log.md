@@ -5,10 +5,6 @@
 ## Project: **Student Success App**
 
 ---
-
-### 9/29/25:
-* Text
-
 ### 10/27/25 - 11/2/2025:
 * Swift is a programming language created by Apple. It’s used to make apps for iPhone, iPad, Mac, Apple Watch, and Apple TV.
     * **Safe and Fast:** Swift is designed to catch mistakes early and run apps quickly.
@@ -33,8 +29,24 @@ print("Hello, \(name)!")
 * [W3Schools Swift Tutorial](https://www.w3schools.com/swift/) - Very simple beginner-focused guide to Swift syntax and examples.
 * [Swift Cheat Sheet](https://learnxinyminutes.com/swift/) – Quick reference for Swift syntax and commands for beginners.
 * **Next Steps:**
-  * Try making a small project to practice everything I’ve learned. 
+  * Try making a small project to practice everything I’ve learned.
 
+### 11/9/25 - 11/16/25
+* [How to use NavigationStack in SwiftUI | Bootcamp #62](https://www.youtube.com/watch?v=GZ-hQWMjT0s) - covers creating a `NavigationStack`, using `NavigationDestination`, and handling navigation paths.
+    * Learned the difference between `NavigationLink` and the newer `NavigationDestination`.
+    * Understood how `NavigationStack` replaces NavigationView for better control.
+    * Saw how navigation paths work when passing data between screens.
+    * Realized that the new system is cleaner and more flexible for apps with multiple pages.
+* [How to use NavigationStack in SwiftUI? (Deep Dive)](https://www.youtube.com/watch?v=fBbw6-Nu_lg)
+    * Practiced sending custom data (like structs) to a new view through a navigation link.
+    * Understood why `NavigationDestination` is important when you have more than one data type.
+    * Saw how programmatic navigation works using a path array.
+    * Understood common errors with `Hashable` and why SwiftUI needs it for navigation.
+* [Complete Guide to Navigation in SwiftUI with NavigationStack (Article)](https://dev.to/yossabourne/complete-guide-to-navigation-in-swiftui-with-navigationstack-3npn)
+    * Got a step-by-step breakdown of how a navigation stack works.
+    * Learned how to create dynamic navigation where the destination depends on a data model.
+    * Understood that NavigationStack is more scalable for real apps with many screens.
+    * Helped clarify when to use NavigationDestination vs. just pushing a view normally.
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
