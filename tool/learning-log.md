@@ -47,6 +47,12 @@ print("Hello, \(name)!")
     * Learned how to create dynamic navigation where the destination depends on a data model.
     * Understood that `NavigationStack` is more scalable for real apps with many screens.
     * Helped clarify when to use `NavigationDestination` vs. just pushing a view normally.
+ ```swift
+   struct Item: Identifiable, Hashable {
+       let id = UUID()
+       let name: String
+   }
+```
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
