@@ -47,12 +47,41 @@ print("Hello, \(name)!")
     * Learned how to create dynamic navigation where the destination depends on a data model.
     * Understood that `NavigationStack` is more scalable for real apps with many screens.
     * Helped clarify when to use `NavigationDestination` vs. just pushing a view normally.
+* This code creates a data model called Item. A model is just a blueprint for the kind of data your app uses.
  ```swift
    struct Item: Identifiable, Hashable {
        let id = UUID()
        let name: String
    }
 ```
+`struct Item`
+   * A struct is a container for data.
+   * Here, it defines an “Item” object (like a fruit, task, or product).
+
+`: Identifiable`
+This tells SwiftUI that every Item has a unique id.
+SwiftUI needs this to:
+   * loop through lists
+   * create navigation links
+   * track which item belongs to which screen
+Without Identifiable, List and NavigationStack won’t work smoothly.
+
+`: Hashable`
+   * This allows Swift to store the item in a Navigation path.
+   * NavigationStack requires the data you push onto the stack to be Hashable, because it has to compare items, track history, and remove them cleanly.
+   * If your model isn’t Hashable → errors in NavigationStack.
+
+`let id = UUID()`
+   * Creates a unique number (like a digital fingerprint) for each item.
+   * Every Item gets its own random UUID.
+   * This helps SwiftUI tell items apart even if two items have the same name.
+Example:
+   * Two items both named “Apple” would still have different IDs.
+
+`let name: String`
+   * Stores the name of the item (like “Apple”, “Banana”, etc.).
+   * You decide what the name is when creating the item.
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
