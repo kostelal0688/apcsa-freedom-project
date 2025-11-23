@@ -82,6 +82,32 @@ Example:
    * Stores the name of the item (like “Apple”, “Banana”, etc.).
    * You decide what the name is when creating the item.
 
+11/17/25 - 11/23/25
+* [SwiftUI ForEach Documentation](https://www.hackingwithswift.com/quick-start) – Helped reinforce how to use bindings, state, and environment objects.
+```swift
+struct Product: Identifiable, Hashable {
+    let id = UUID()
+    let title: String
+    let price: Double
+}
+```
+`struct Product`
+* A struct is a container for data.
+* Defines a “Product” object with a title and price.
+`: Identifiable`
+* Ensures each product has a unique ID.
+* Needed for lists and navigation links in SwiftUI.
+`: Hashable`
+* Allows SwiftUI to store items in a NavigationStack.
+* Ensures each item can be compared and tracked in the stack.
+`let id = UUID()`
+* Generates a unique identifier for every product.
+* Even two products with the same title will be treated as unique.
+`let title: String & let price: Double`
+* Stores the name and cost of the product.
+* Practiced using this data in dynamic lists and passing it between views.
+
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
