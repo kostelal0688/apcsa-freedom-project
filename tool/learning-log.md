@@ -82,7 +82,7 @@ Example:
    * Stores the name of the item (like “Apple”, “Banana”, etc.).
    * You decide what the name is when creating the item.
 
-11/17/25 - 11/23/25
+### 11/17/25 - 11/23/25
 * [SwiftUI ForEach Documentation](https://www.hackingwithswift.com/quick-start) – Helped reinforce how to use bindings, state, and environment objects.
 ```swift
 struct Product: Identifiable, Hashable {
