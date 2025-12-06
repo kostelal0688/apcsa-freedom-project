@@ -106,6 +106,8 @@ struct Product: Identifiable, Hashable {
 `let title: String & let price: Double`
 * Stores the name and cost of the product.
 * Practiced using this data in dynamic lists and passing it between views.
+  
+12/1/2025 - 12/7/2025
 
 
 <!-- 
