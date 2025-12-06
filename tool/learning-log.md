@@ -107,7 +107,29 @@ struct Product: Identifiable, Hashable {
 * Stores the name and cost of the product.
 * Practiced using this data in dynamic lists and passing it between views.
   
-12/1/2025 - 12/7/2025
+### 12/1/2025 - 12/7/2025
+* [Apple Docs – State & Data Flow](https://developer.apple.com/documentation/swiftui/model-data)
+   * Official explanation of `@State`, `@Binding`, and `@ObservedObject`
+   * How SwiftUI updates the UI automatically when data changes
+* [Swift for Complete Beginners](https://www.hackingwithswift.com/quick-start/beginners)
+   * This is a beginner-friendly guide to learning the basics of the Swift language.
+   * Fundamental Swift syntax & data types — The guide covers variables and constants, Strings, numbers (integers and decimals), Booleans, and basics of how to store and use data. 
+   * Control flow, collections, and data structures — You learn about conditions (if, switch), loops (for, while), and complex data structures such as arrays, dictionaries, and sets.
+   * Functions, optionals, and closures — Teaches how to write reusable code (functions), handle optional (i.e. maybe-present) data safely, and manage functional programming features like closures.
+   * Structs, classes, protocols, and more advanced features — The guide introduces Swift’s advanced tools: how to build your own types with struct or class, manage shared behaviors with protocols, extend types, and use other key features. 
+#### Variables / Constants / Data Types
+```swift
+   var greeting = "Hello, world!"     // a variable — value can change
+   let pi = 3.14159                  // a constant — value can’t change
+   
+   print(greeting)  
+   print("Pi is \(pi)")             // string interpolation
+```
+      * `var` declares a variable that can change.
+      * `let` declares a constant that cannot change.
+      * `print()` outputs to the console.
+      * `"\(pi)"` inserts the value of pi into a string.
+
 
 
 <!-- 
