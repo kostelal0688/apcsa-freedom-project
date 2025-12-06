@@ -130,6 +130,60 @@ struct Product: Identifiable, Hashable {
 * `let` declares a constant that cannot change.
 * `print()` outputs to the console.
 * `"\(pi)"` inserts the value of pi into a string.
+#### Conditional statements and loops
+```swift
+   let number = 5
+   
+   if number % 2 == 0 {
+       print("Even")
+   } else {
+       print("Odd")
+   }
+   
+   for i in 1...5 {
+       print("i = \(i)")
+   }
+   
+   var count = 1
+   while count <= 3 {
+       print("count = \(count)")
+       count += 1
+   }
+```
+
+* `if … else` lets you choose code paths based on conditions.
+* `for i in 1...5` loops `i` from 1 to 5.
+* `while` repeats a block while a condition is true.
+#### Functions
+```swift
+func greet(person name: String) -> String {
+    return "Hello, \(name)!"
+}
+
+let message = greet(person: "Kostela")
+print(message)    // prints: Hello, Kostela!
+```
+
+* `func` defines a function.
+* `-> String` means the function returns a String.
+* Functions let you reuse logic
+####  Arrays & simple struct
+```swift
+var fruits = ["Apple", "Banana", "Cherry"]
+fruits.append("Date")
+print(fruits)   // ["Apple", "Banana", "Cherry", "Date"]
+
+struct Person {
+    var name: String
+    var age: Int
+}
+
+let someone = Person(name: "Alex", age: 20)
+print("Name: \(someone.name), Age: \(someone.age)")
+```
+* Arrays hold ordered lists of values.
+* `.append(...)` adds an item.
+* `struct` is a way to bundle related data (like name and age).
 
 
 
