@@ -184,6 +184,8 @@ print("Name: \(someone.name), Age: \(someone.age)")
 * Arrays hold ordered lists of values.
 * `.append(...)` adds an item.
 * `struct` is a way to bundle related data (like name and age).
+* **Next Steps:**
+  * Try to stat parts of mt project to practice everything I’ve learned.
 
 
 
