@@ -125,10 +125,11 @@ struct Product: Identifiable, Hashable {
    print(greeting)  
    print("Pi is \(pi)")             // string interpolation
 ```
-      * `var` declares a variable that can change.
-      * `let` declares a constant that cannot change.
-      * `print()` outputs to the console.
-      * `"\(pi)"` inserts the value of pi into a string.
+
+* `var` declares a variable that can change.
+* `let` declares a constant that cannot change.
+* `print()` outputs to the console.
+* `"\(pi)"` inserts the value of pi into a string.
 
 
 
