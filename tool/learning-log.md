@@ -213,14 +213,18 @@ struct Student: Identifiable, Hashable {
 * Expanded the Student model to include GPA.
 * This model could be used to track academic progress inside the app.
 * Learned how adding properties affects how data is displayed and passed between views.
+
 **What I Learned**
 * SwiftUI relies heavily on data-driven design.
 * Navigation feels simpler once the data model is set up correctly.
 * Small mistakes in state management can cause large issues in navigation.
+  
 **Challenges**
 * Passing data cleanly between views still feels confusing at times.
 * Remembering when to use @State vs. @Binding requires more practice.
 * Debugging logic errors takes patience, especially when the UI doesn’t update as expected.
+
+  
 **Next Steps**
 * Build a basic dashboard screen for the Student Success App.
 * Add sample student data and display it in a List.
