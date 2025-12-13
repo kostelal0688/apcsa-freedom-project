@@ -186,7 +186,46 @@ print("Name: \(someone.name), Age: \(someone.age)")
 * `struct` is a way to bundle related data (like name and age).
 * **Next Steps:**
   * Try to stat parts of mt project to practice everything I’ve learned.
-
+### 12/8/2025 - 12/13/2025
+* Continued developing skills in Swift and SwiftUI for my Student Success App.
+* Focused on understanding how app structure works in real projects, especially how data, navigation, and views connect.
+* Spent time reviewing past notes and examples to reinforce key concepts instead of rushing ahead.
+* Started thinking about how this app could realistically help students stay organized and track progress.
+#### Concepts Deepened
+* **NavigationStack**
+* Learned how multiple screens can be stacked and navigated smoothly.
+* Better understood how SwiftUI keeps track of where the user is in the app.
+* **Data Models**
+* Practiced creating models that represent real users and information.
+* Learned why clean data models make apps easier to expand later.
+* **State & Data Flow**
+* Improved understanding of how SwiftUI updates the interface automatically when data changes.
+* Learned why managing state correctly prevents bugs and confusing behavior.
+* **Practice Code**
+```swift
+struct Student: Identifiable, Hashable {
+    let id = UUID()
+    let name: String
+    let grade: Int
+    let gpa: Double
+}
+```
+* Expanded the Student model to include GPA.
+* This model could be used to track academic progress inside the app.
+* Learned how adding properties affects how data is displayed and passed between views.
+* **What I Learned**
+* SwiftUI relies heavily on data-driven design.
+* Navigation feels simpler once the data model is set up correctly.
+* Small mistakes in state management can cause large issues in navigation.
+* **Challenges**
+* Passing data cleanly between views still feels confusing at times.
+* Remembering when to use @State vs. @Binding requires more practice.
+* Debugging logic errors takes patience, especially when the UI doesn’t update as expected.
+**Next Steps**
+* Build a basic dashboard screen for the Student Success App.
+* Add sample student data and display it in a List.
+* Practice passing selected student data to a detail view.
+* Continue reviewing SwiftUI state and navigation concepts.
 
 
 <!-- 
