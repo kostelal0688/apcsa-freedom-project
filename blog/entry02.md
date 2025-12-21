@@ -59,6 +59,7 @@ let student2 = Student(name: "Bob", grade: 12, gpa: 3.5)
 * Creating data models helped me organize real-world data (like student info) for use in my app.
 
 ### Winter Break Goal
+My specific goal for winter break is to start building the Student Success App in SwiftUI. I want to create an app that shows a dashboard of all students, detail views with grades and GPA, and lets users select a student to see updated information in real time. I want this app to help students stay organized, track progress, and feel motivated to succeed. By seeing their achievements and understanding their goals clearly, students can take control of their learning and celebrate small victories along the way.
 
 ## Engineering Design Process 
 
