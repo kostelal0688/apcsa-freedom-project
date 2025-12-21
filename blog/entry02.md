@@ -10,10 +10,10 @@ I started by reviewing beginner-friendly guides like [Apple’s step‑by‑step
 * Functions & Structs – Writing reusable functions and creating custom data types.
 * SwiftUI Concepts – `@State`, `@Binding`, `NavigationStack`, and building simple views.
   
-#### Swift Basics
+**Swift Basics**
 * I started with the fundamentals of Swift, covering variables, constants, data types, control flow, functions, arrays, and structs.
   
-**Variables, Constants & Data Types**
+Variables, Constants & Data Types
 ```swift
 var greeting = "Hello, world!"     // a variable — value can change
 let pi = 3.14159                   // a constant — value can’t change
