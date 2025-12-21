@@ -62,9 +62,18 @@ let student2 = Student(name: "Bob", grade: 12, gpa: 3.5)
 My specific goal for winter break is to start building the Student Success App in SwiftUI. I want to create an app that shows a dashboard of all students, detail views with grades and GPA, and lets users select a student to see updated information in real time. I want this app to help students stay organized, track progress, and feel motivated to succeed. By seeing their achievements and understanding their goals clearly, students can take control of their learning and celebrate small victories along the way.
 
 ## Engineering Design Process 
-
+I’m currently in steps 2 and 3 of the engineering design process for my Student Success App. Right now, I’m learning more about how to organize student information and display it in the app. I’m also experimenting with how different parts of the app can work together and how users will move between screens. Once I feel more confident, I’ll move on to step 4, where I’ll plan the app fully, decide which features to include, and design how the app will look and work.
 ## Skills
-Some skills that I’ve learned
+Some skills that I’ve learned from working on this project are **consideraion,** and **how to google**
+
+### Consideration
+I’ve learned how to think carefully about app design, how to organize student data and make the app easy to use.
+
+### How to Google
+I’ve also improved at searching online for help. I’ve used beginner guides and tutorials, which has been very helpful for solving problems on my own.
+
+## Next Steps
+I’m excited to start planning the app, designing the dashboard and detail views, and deciding how student data will be shown.
 
 [Previous](entry01.md) | [Next](entry03.md)
 
