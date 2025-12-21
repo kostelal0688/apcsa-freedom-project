@@ -4,7 +4,7 @@
 ## Content
 Over the past two weeks, I’ve been diving deeper into Swift and SwiftUI while working on a small Student Success App. My goal was to understand Swift fundamentals, SwiftUI state management, and how to structure a real app with multiple screens. Below, I’ll break down what I learned, including code examples, explanations, and challenges.
 
-I started by reviewing beginner-friendly Swift guides and practicing small coding exercises. Each day, I focused on one topic at a time:
+I started by reviewing beginner-friendly [Swift guides](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour/) and practicing small coding exercises. Each day, I focused on one topic at a time:
 * Swift Basics – Variables, constants, strings, numbers, Booleans, and arrays.
 * Control Flow – `if/else statements`, for and while loops.
 * Functions & Structs – Writing reusable functions and creating custom data types.
@@ -12,6 +12,7 @@ I started by reviewing beginner-friendly Swift guides and practicing small codin
   
 #### Swift Basics
 * I started with the fundamentals of Swift, covering variables, constants, data types, control flow, functions, arrays, and structs.
+  
 **Variables, Constants & Data Types**
 ```swift
 var greeting = "Hello, world!"     // a variable — value can change
