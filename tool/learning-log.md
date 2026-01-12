@@ -231,6 +231,8 @@ struct Student: Identifiable, Hashable {
 * Practice passing selected student data to a detail view.
 * Continue reviewing SwiftUI state and navigation concepts.
 
+1/12/2026 - 1/15/2026
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
