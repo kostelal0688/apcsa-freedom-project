@@ -86,7 +86,7 @@ Example:
 * [SwiftUI ForEach Documentation](https://www.hackingwithswift.com/quick-start) – Helped reinforce how to use bindings, state, and environment objects.
 ```swift
 struct Product: Identifiable, Hashable {
-    let id = UUID()
+    let id = UUID() 
     let title: String
     let price: Double
 }
