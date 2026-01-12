@@ -251,6 +251,7 @@ struct Student: Identifiable, Hashable {
       }
   ```
 - This code shows a basic screen with a button that opens a new screen when tapped.
+
 **NavigationStack with a List**
   ```swift
      import SwiftUI
