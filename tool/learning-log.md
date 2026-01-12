@@ -236,6 +236,7 @@ struct Student: Identifiable, Hashable {
 * [SwiftUI Navigation Concepts (with code examples)](https://www.codecademy.com/resources/docs/swiftui/navigation) - explains NavigationStack and NavigationLink in detail.
 * [Create a list and navigation in SwiftUI](https://medium.com/swift-productions/create-a-list-with-navigation-swiftui-825bad03c940) - shows how to build a list that can navigate to detail screens.
 * [How to use NavigationStack in SwiftUI (YouTube)](https://www.youtube.com/watch?v=fBbw6-Nu_lg) - beginner video explaining how NavigationStack works.
+
 **Simple NavigationStack with a Button Link**
   ```swift
      import SwiftUI
