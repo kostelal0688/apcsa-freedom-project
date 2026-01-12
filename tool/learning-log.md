@@ -231,7 +231,45 @@ struct Student: Identifiable, Hashable {
 * Practice passing selected student data to a detail view.
 * Continue reviewing SwiftUI state and navigation concepts.
 
-1/12/2026 - 1/15/2026
+### 1/12/2026 - 1/15/2026
+* [How to use NavigationStack in SwiftUI(simple tutorial)](https://tnvmadhav.me/guides/how-to-use-navigationstack-in-swiftui/) - shows a basic NavigationStack with a NavigationLink that opens another view.
+* [SwiftUI Navigation Concepts (with code examples)](https://www.codecademy.com/resources/docs/swiftui/navigation) - explains NavigationStack and NavigationLink in detail.
+* [Create a list and navigation in SwiftUI](https://medium.com/swift-productions/create-a-list-with-navigation-swiftui-825bad03c940) - shows how to build a list that can navigate to detail screens.
+* [How to use NavigationStack in SwiftUI (YouTube)](https://www.youtube.com/watch?v=fBbw6-Nu_lg) - beginner video explaining how NavigationStack works.
+**Simple NavigationStack with a Button Link**
+  ```swift
+     import SwiftUI
+
+      struct ContentView: View {
+          var body: some View {
+              NavigationStack {
+                  NavigationLink("Go to Second Screen", destination: Text("Hello from the second screen"))
+                      .navigationTitle("Home")
+              }
+          }
+      }
+  ```
+- This code shows a basic screen with a button that opens a new screen when tapped.
+**NavigationStack with a List**
+  ```swift
+     import SwiftUI
+
+      struct ContentView: View {
+          let items = ["Apples", "Bananas", "Cherries"]
+      
+          var body: some View {
+              NavigationStack {
+                  List(items, id: \.self) { item in
+                      NavigationLink(item, destination: Text("Detail for \(item)"))
+                  }
+                  .navigationTitle("Fruits")
+              }
+          }
+      }
+
+  ```
+- Here a list shows several items, and tapping any takes you to a detail view. This is useful for apps with lists of data
+
 
 
 <!-- 
