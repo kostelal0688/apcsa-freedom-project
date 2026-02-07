@@ -22,6 +22,7 @@ struct ContentView: View {
 * `NavigationLink` acts like a button that opens a new screen.
 * The destination is the view that appears when the link is tapped.
 * This showed me how apps can move from one screen to another instead of displaying everything on one page.
+  
 **NavigationStack with a List**
 ```swift
 import SwiftUI
