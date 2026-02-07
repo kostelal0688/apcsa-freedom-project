@@ -45,6 +45,21 @@ struct ContentView: View {
 * Tapping an item opens a detail screen specific to that item.
 * This is similar to how my app could show a list of students and then navigate to a detailed view with grades and GPA.
 
+## Engineering Design Process 
+I am currently in steps 2 and 3 of the engineering design process. Right now, I am researching how SwiftUI navigation works, experimenting with different navigation layouts, and learning how lists connect to detail views. My next step will be step 4, where I will fully plan the app, decide which features to include, and design how the app should look and function.
+
+## Skills
+Some skills that I’ve learned from working on this project are **problem decomposition** and **how to google**
+
+### Problem decomposition
+While working on my Student Success App, I practiced problem decomposition by breaking down building the app into smaller steps, like learning NavigationStack first, then creating lists, and finally connecting detail views.
+
+### How to Google
+I’ve also improved at searching online for help. I’ve used beginner guides and tutorials, which has been very helpful for solving problems on my own.
+
+## Next Steps
+I’m excited to start building the Student Success App using what I’ve learned.
+
 
 [Previous](entry02.md) | [Next](entry04.md)
 
