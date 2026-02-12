@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Swift
+## Product: Student Success App
 
 ---
 
@@ -9,13 +9,79 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+## Timeline
+
+#### MVP
+
+- [ ] UI / Front-End (SwiftUI)
+
+  - [ ] Welcome screen  (deadline: Feb 17)
+        - Simple app intro
+        - Start button → goes to calendar
+
+  - [ ] Monthly calendar view (deadline: Feb 21)
+        - Scrollable month layout
+        - Visual dots for days with tasks
+        - Tap day → open daily view
+        
+  - [ ] Daily task view   (deadline: Feb 23)
+        - List of tasks for selected day
+        - Completed toggle checkbox
+        - Empty state message if no tasks
+       
+
+  - [ ] Add event / assignment screen  (deadline: Feb 26) 
+        - Title field
+        - Date picker
+        - Priority selector
+        - Save button
+
+  - [ ] Show daily motivational quote  (deadline: Feb 28)  
+        - Static quote list (array of quotes)
+        - Random quote each day
+
+
+- [ ] Core Features
+
+  - [ ] Add / edit / delete assignments   (deadline: March 2)
+        - Swipe to delete
+        - Edit existing task
+        - Save updates to local storage
+       
+
+  - [ ] Highlight upcoming deadlines  (deadline: March 4)
+        - Tasks within 24 hours appear in red
+        - Optional “Due Soon” label
+
+  - [ ] Simple progress tracker (completed vs pending)  (deadline: March 7) 
+        - Percentage completed today
+        - Small progress bar on dashboard
+      
+  - [ ] Final testing & bug fixes   (deadline: March 15)
+        - Test adding/editing tasks
+        - Test notifications
+        - Fix UI issues
+
+
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Push notifications with motivational messages or basic reminder notification before due date    
+        - Morning reminder message
+
+- [ ] Streak tracker (days productive in a row)  
+        - Track consecutive days with completed tasks
+        - Display streak number on dashboard
+
+- [ ] Customizable themes (light / dark mode toggle)  
+        - Allow user to choose accent color
+
+- [ ] Goal setting page  
+        - User sets weekly productivity goal
+        - Show progress toward goal
+
+
+
 
 
 <!-- EXAMPLE
