@@ -14,7 +14,7 @@
 #### MVP
 
   - [ ] **Welcome screen  (deadline: Feb 17)**
-        - [ ] Simple app intro
+        - Simple app intro
         - Start button → goes to calendar
 
   - [ ] Monthly calendar view (deadline: Feb 21)
