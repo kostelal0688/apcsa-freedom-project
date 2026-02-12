@@ -13,10 +13,8 @@
 
 #### MVP
 
-- [ ] UI / Front-End (SwiftUI)
-
-  - [ ] Welcome screen  (deadline: Feb 17)
-        - Simple app intro
+  - [ ] **Welcome screen  (deadline: Feb 17)**
+        - [ ] Simple app intro
         - Start button → goes to calendar
 
   - [ ] Monthly calendar view (deadline: Feb 21)
