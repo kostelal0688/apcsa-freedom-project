@@ -10,13 +10,11 @@
 #### MVP
   - [ ]  **Create Welcome Screen (2/14 - 2/17)**
      - [ ] Design a simple intro screen for the app
-       - [ ] Add app title and short motivational tagline
-          - [ ] Add “Get Started” button to navigate to calendar
+       - [ ] Add app title and short motivational tagline and a “Get Started” button to navigate to calendar
    - [ ] **Build Monthly Calendar View (2/18 - 2/21)**
-       - [ ] Create scrollable monthly calendar layout
-           - [ ] Display days in grid format
-               - [ ] Add dots for days with tasks
-                  - [ ] Allow user to tap a day to open Daily Task View
+       - [ ] Create monthly calendar layout
+           - [ ] Add dots for days with tasks
+              - [ ] Allow user to tap a day to open Daily Task View
    - [ ] **Create Daily Task View (2/22 - 2/23)**
         - [ ] Display list of tasks for selected day
             - [ ] Add checkbox toggle to mark tasks complete
