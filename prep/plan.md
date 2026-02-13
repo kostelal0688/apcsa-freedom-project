@@ -8,11 +8,6 @@
 ## Timeline
 
 #### MVP
-
-## Timeline
-
-#### MVP
-
   - [ ]  **Create Welcome Screen (2/14 - 2/17)**
      - [ ] Design a simple intro screen for the app
        - [ ] Add app title and short motivational tagline
