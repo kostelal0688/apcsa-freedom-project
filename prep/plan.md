@@ -8,34 +8,33 @@
 ## Timeline
 
 #### MVP
-  - [ ]  **Create Welcome Screen (2/14 - 2/17)**
+  - [ ]  **Create Welcome Screen (2/15 - 2/18)**
      - [ ] Design a simple intro screen for the app
        - [ ] Add app title and short motivational tagline and a “Get Started” button to navigate to calendar
-   - [ ] **Build Monthly Calendar View (2/18 - 2/21)**
+   - [ ] **Build Monthly Calendar View (2/19 - 2/22)**
        - [ ] Create monthly calendar layout
            - [ ] Add dots for days with tasks
               - [ ] Allow user to tap a day to open Daily Task View
-   - [ ] **Create Daily Task View (2/22 - 2/23)**
+   - [ ] **Create Daily Task View (2/23 - 2/25)**
         - [ ] Display list of tasks for selected day
             - [ ] Add checkbox toggle to mark tasks complete
                 - [ ] Show empty state message if no tasks
                   - [ ] Add navigation back to monthly calendar        
-  - [ ]  **Add Event / Assignment Screen (2/24 - 2/26)**
+  - [ ]  **Add Event / Assignment Screen (2/26 - 2/28)**
     - [ ]  Create form to input task details
       - [ ]  Add title text field, date picker, priority selector (Low / Medium / High), and save button to store event
-  - [ ]  **Display Daily Motivational Quote (2/27 - 2/28)**
+  - [ ]  **Display Daily Motivational Quote (3/1 - 3/3)**
      - [ ]  Create array of motivational quotes
        - [ ]  Randomly select one quote per day
         - [ ]  Display quote at top of dashboard
-  - [ ]  **Highlight Upcoming Deadlines (3/3 - 3/4)**
+  - [ ]  **Highlight Upcoming Deadlines (3/4 - 3/7)**
     - [ ]   Use conditional logic to detect tasks due within 24 hours
       - [ ]   Display “Due Soon” label
         - [ ]   Change task text color to red
-   - [ ]  **Add Simple Progress Tracker (3/5 - 3/7)**
+   - [ ]  **Add Simple Progress Tracker (3/8 - 3/14)**
      - [ ]  Calculate percentage of completed tasks per day
         - [ ]  Display progress bar on dashboard
           - [ ]  Update progress dynamically when tasks are completed
-  - [ ]  **Final Testing & Bug Fixes (3/8 - 3/15)**
 
 #### Beyond MVP
 - [ ] **Push notifications with motivational messages or basic reminder notification before due date**
