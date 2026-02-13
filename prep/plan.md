@@ -59,17 +59,17 @@
 
 
 #### Beyond MVP
-- [ ] Push notifications with motivational messages or basic reminder notification before due date
+- [ ] **Push notifications with motivational messages or basic reminder notification before due date**
   - [ ] Morning reminder message
 
-- [ ] Streak tracker (days productive in a row)
+- [ ] **Streak tracker (days productive in a row)**
   - [ ] Track consecutive days with completed tasks
     - [ ] Display streak number on dashboard
 
-- [ ] Customizable themes (light / dark mode toggle)
+- [ ] **Customizable themes (light / dark mode toggle)**
   - [ ]  Allow user to choose accent color
 
-- [ ] Goal setting page
+- [ ] **Goal setting page**
   - [ ] User sets weekly productivity goal
     - [ ] Show progress toward goal
 
