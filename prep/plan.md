@@ -53,13 +53,12 @@
      - [ ]  Calculate percentage of completed tasks per day
         - [ ]  Display progress bar on dashboard
           - [ ]  Update progress dynamically when tasks are completed
-          
-    - [ ] **Final Testing & Bug Fixes (3/8 - 3/15)**
+    
+  - [ ]  **Final Testing & Bug Fixes (3/8 - 3/15)**
 
 
 
 #### Beyond MVP
-
 - [ ] Push notifications with motivational messages or basic reminder notification before due date
   - [ ] Morning reminder message
 
