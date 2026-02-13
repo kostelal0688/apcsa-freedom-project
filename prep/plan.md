@@ -34,7 +34,6 @@
    - [ ]  **Add Simple Progress Tracker (3/8 - 3/14)**
      - [ ]  Calculate percentage of completed tasks per day
         - [ ]  Display progress bar on dashboard
-          - [ ]  Update progress dynamically when tasks are completed
 
 #### Beyond MVP
 - [ ] **Push notifications with motivational messages or basic reminder notification before due date**
