@@ -344,18 +344,14 @@ struct ContentView: View {
 - StudyEvent Model
     - Stores a task or assignment.
     - Includes a title, subject, and date.
-
 - DatePicker (.graphical)
    - Displays a calendar-style interface.
    - Lets the user select a day.
-
 - Filtering Events
-
 ```swift
 events.filter { Calendar.current.isDate($0.date, inSameDayAs: selectedDate) }
 ```
    - Shows only events for the selected day.
-
 - List
    - Displays tasks scheduled for that date.
 
