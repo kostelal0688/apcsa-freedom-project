@@ -271,6 +271,93 @@ struct Student: Identifiable, Hashable {
 
   ```
 - Here a list shows several items, and tapping any takes you to a detail view. This is useful for apps with lists of data
+### 3/2/2026 - 3/8/2026
+* This week I started planning how the Student Success App will work like a calendar. Instead of only showing lists of students or tasks, the app will allow users to see assignments, goals, or study tasks organized by date.
+* A calendar structure could help students manage their time, track assignments, and plan study sessions more easily.
+Watched these videos"
+* [Monthly Calendar View App SwiftUI Xcode Tutorial](https://www.youtube.com/watch?v=jBvkFKhnYLI)
+* [Custom Calendar Tutorial | SwiftUI](https://www.youtube.com/watch?v=nXdM4WMNDkg&t=176s)
+* These tutorials show:
+  * How to build a calendar layout
+  * How to create a month grid
+  * How users can tap dates to view events
+* [Calendar view in SwiftUI with MultiDatePicker](https://sarunw.com/posts/swiftui-multidatepicker/) - This explains how SwiftUI can display a calendar-like date picker and allow users to select dates.
+```swift
+   import SwiftUI
+
+struct StudyEvent: Identifiable {
+    let id = UUID()
+    let title: String
+    let subject: String
+    let date: Date
+}
+
+struct ContentView: View {
+
+    @State private var selectedDate = Date()
+
+    let events = [
+        StudyEvent(title: "Math Homework", subject: "Math", date: Date()),
+        StudyEvent(title: "Biology Quiz Study", subject: "Biology", date: Date()),
+        StudyEvent(title: "History Essay", subject: "History", date: Date().addingTimeInterval(86400))
+    ]
+
+    var filteredEvents: [StudyEvent] {
+        events.filter { Calendar.current.isDate($0.date, inSameDayAs: selectedDate) }
+    }
+
+    var body: some View {
+        NavigationStack {
+            VStack {
+
+                // Calendar style date picker
+                DatePicker(
+                    "Select Date",
+                    selection: $selectedDate,
+                    displayedComponents: [.date]
+                )
+                .datePickerStyle(.graphical)
+                .padding()
+
+                // Events for selected day
+                List(filteredEvents) { event in
+                    VStack(alignment: .leading) {
+                        Text(event.title)
+                            .font(.headline)
+                        Text(event.subject)
+                            .font(.subheadline)
+                    }
+                }
+
+                if filteredEvents.isEmpty {
+                    Text("No tasks for this day")
+                        .foregroundColor(.gray)
+                        .padding()
+                }
+            }
+            .navigationTitle("Study Calendar")
+        }
+    }
+}
+```
+#### What This Code Does
+- StudyEvent Model
+    - Stores a task or assignment.
+    - Includes a title, subject, and date.
+
+- DatePicker (.graphical)
+   - Displays a calendar-style interface.
+   - Lets the user select a day.
+
+- Filtering Events
+
+```swift
+events.filter { Calendar.current.isDate($0.date, inSameDayAs: selectedDate) }
+```
+   - Shows only events for the selected day.
+
+- List
+   - Displays tasks scheduled for that date.
 
 
 
@@ -278,6 +365,6 @@ struct Student: Identifiable, Hashable {
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
 * Challenges, a-ha moments, etc
-* Questions you still have
+* Questions you still havea
 * What you're going to try next
 -->
