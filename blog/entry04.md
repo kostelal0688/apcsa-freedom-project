@@ -59,8 +59,16 @@ One important thing I learned is how SwiftUI updates the interface automatically
 ## Engineering Design Process
 Right now I am working in Steps 5 and 6 of the engineering design process, which involve building and testing the prototype. I am building the prototype of the calendar system and testing how it works when users select different dates. My main goal right now is making sure the calendar correctly shows events for the selected day. Once the calendar works smoothly, I plan to add a feature that lets students add their own assignments and study tasks to the calendar.
 ## Skills
+Some skills that I’ve learned from working on this project are **Problem Solving** and **Debugging**
 
+### Problem Solving 
+While working on the calendar feature, I had to figure out how to organize events by date and display them properly. I researched how SwiftUI handles dates and calendars, and I used that information to build a system that filters events for the selected day.
 
+### Debugging
+Debugging helped me when my events were not appearing correctly at first. I realized I needed to compare the dates using Calendar.current.isDate instead of checking the raw date values. After fixing that, the events started appearing correctly when the user selected a date.
+
+## Summary
+Overall, I made progress toward my MVP by creating a calendar interface that shows study events for specific days. This will help students see their assignments and study plans more clearly. My next step is to allow users to add their own events to the calendar, which will make the app more useful for managing school work.
 
 [Previous](entry03.md) | [Next](entry05.md)
 
