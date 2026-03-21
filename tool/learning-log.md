@@ -355,6 +355,42 @@ events.filter { Calendar.current.isDate($0.date, inSameDayAs: selectedDate) }
 - List
    - Displays tasks scheduled for that date.
 
+### 3/16/2026 - 13/23/2026
+This week I continued improving the calendar feature and started connecting it more directly to the overall purpose of the Student Success App. I focused on making the app feel more interactive and useful rather than just displaying information.
+
+#### Concepts Worked On
+* User Interaction
+* Practiced making the app respond to user actions like selecting a date or tapping on an event.
+* Improved understanding of how SwiftUI updates the screen when the user interacts with elements.
+* Refining the Calendar Feature
+* Worked on improving how events are displayed for each selected date.
+* Considered adding features like marking tasks as completed or highlighting important dates.
+* Continued practicing when to use @State for simple data and how it affects UI updates.
+* Reinforced how changing the selected date automatically refreshes the event list.
+* Experimented with adding more properties like priority or completion status.
+
+#### Example idea:
+```swift
+struct StudyEvent: Identifiable {
+    let id = UUID()
+    let title: String
+    let subject: String
+    let date: Date
+    var isCompleted: Bool
+}
+```
+This allows the app to eventually:
+* Track completed assignments
+* Show progress over time
+* Help students stay organized
+
+#### What I Learned
+* Small UI improvements can make the app feel much more useful.
+* Thinking about real users helps guide better design decisions.
+* [SwiftUI Learning Roadmap / Beginner Resources](https://www.swiftyplace.com/no-experience-to-first-ios-job-beginners?#1_Get_Familiar_with_Xcode)
+#### Next Steps
+* Add a way to mark tasks as completed.
+* Continue improving the calendar UI and usability.
 
 
 <!-- 
