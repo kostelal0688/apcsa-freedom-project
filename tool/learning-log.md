@@ -394,6 +394,7 @@ This allows the app to eventually:
   
 ### 3/23/26
 [Tutorial](https://www.youtube.com/watch?v=F2ojC6TNwws)
+(https://www.swiftyplace.com/no-experience-to-first-ios-job-beginners?#1_Get_Familiar_with_Xcode)
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
