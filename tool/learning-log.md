@@ -396,6 +396,7 @@ This allows the app to eventually:
 * [Tutorial](https://www.youtube.com/watch?v=F2ojC6TNwws)
      * From the tutorial video, I learned how iOS apps are created using Xcode and the Swift programming language. It explained how developers use Xcode as an all-in-one environment to write code, design the app interface, and test their apps using a simulator. I also learned about the basic structure of an app, including how screens (views) are created and connected. The video showed how code controls what happens when a user interacts with buttons or other elements, which helped me understand how apps respond to user input.
 * [No Experience to First iOS Job for Absolute Beginners](https://www.swiftyplace.com/no-experience-to-first-ios-job-beginners?#1_Get_Familiar_with_Xcode)
+  
       * From the article, I learned that getting comfortable with Xcode is one of the most important first steps. It explained that beginners should explore the layout of Xcode, learn how to start a new project, and understand how to navigate different files. It also mentioned the importance of learning Swift step by step and practicing by building small projects. Another key point was that creating simple apps is the best way to build experience and confidence.
 * Continued practicing in Xcode by exploring how to create a new SwiftUI project.
     * Learned how to choose the correct template (App → SwiftUI).
