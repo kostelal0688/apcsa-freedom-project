@@ -393,8 +393,39 @@ This allows the app to eventually:
 * Continue improving the calendar UI and usability.
   
 ### 3/23/26
-[Tutorial](https://www.youtube.com/watch?v=F2ojC6TNwws)
-(https://www.swiftyplace.com/no-experience-to-first-ios-job-beginners?#1_Get_Familiar_with_Xcode)
+* [Tutorial](https://www.youtube.com/watch?v=F2ojC6TNwws)
+     * From the tutorial video, I learned how iOS apps are created using Xcode and the Swift programming language. It explained how developers use Xcode as an all-in-one environment to write code, design the app interface, and test their apps using a simulator. I also learned about the basic structure of an app, including how screens (views) are created and connected. The video showed how code controls what happens when a user interacts with buttons or other elements, which helped me understand how apps respond to user input.
+* [No Experience to First iOS Job for Absolute Beginners](https://www.swiftyplace.com/no-experience-to-first-ios-job-beginners?#1_Get_Familiar_with_Xcode)
+      * From the article, I learned that getting comfortable with Xcode is one of the most important first steps. It explained that beginners should explore the layout of Xcode, learn how to start a new project, and understand how to navigate different files. It also mentioned the importance of learning Swift step by step and practicing by building small projects. Another key point was that creating simple apps is the best way to build experience and confidence.
+* Continued practicing in Xcode by exploring how to create a new SwiftUI project.
+    * Learned how to choose the correct template (App → SwiftUI).
+    * Navigated the main files like ContentView.swift and understood where UI code is written.
+    * Explored the preview canvas and how it updates when code changes.
+
+* Practiced modifying simple UI elements:
+    * Changed text, added a button, and experimented with layout using VStack.
+    * Began understanding how modifiers like `.padding()` and `.font()` affect the UI.
+
+* Tried connecting user interaction to code:
+    * Experimented with a basic button that prints to the console when tapped.
+    * This helped reinforce how user actions trigger code in SwiftUI.
+
+#### Challenges
+* Still getting used to the Xcode layout and where everything is located.
+* Remembering Swift syntax while also learning SwiftUI at the same time is a bit challenging.
+* Understanding how previews update vs. running the full simulator.
+
+#### A-ha Moments
+* Realized that SwiftUI is very data-driven — changing data automatically updates the UI.
+* Understood that even small apps follow the same structure as larger apps.
+* Saw how important it is to practice by actually building small features, not just watching tutorials.
+
+#### Next Steps
+* Build a very simple app screen (ex: a basic student dashboard UI).
+* Practice adding multiple UI elements (text, buttons, lists).
+* Continue getting comfortable navigating Xcode without relying on tutorials.
+
+  
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
