@@ -1,7 +1,11 @@
 # Entry 5
 ##### 4/15/26
+## Content
 
-Text
+
+
+
+## Summary
 
 [Previous](entry04.md) | [Next](entry06.md)
 
