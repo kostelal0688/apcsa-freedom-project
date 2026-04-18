@@ -3,6 +3,15 @@
 ## Content
 
 
+## Engineering Design Process 
+
+
+## Skills
+Some skills that I’ve learned from working on this project are **** and ****
+
+### 
+
+### 
 
 
 ## Summary
