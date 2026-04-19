@@ -6,7 +6,7 @@ Over the past week, I continued learning how to use SwiftUI to finish my Student
 As I worked, I got better at understanding how different parts of SwiftUI connect. For example, I learned how to pass data between views so that when a user updates something, it changes everywhere in the app. This helped me make my app more interactive and user-friendly.
 
 ### Finishing My MVP
-This week, I completed my MVP. (Here is a video of my MVP)[https://drive.google.com/file/d/1J9DfwWUhtm8GL3jESqdmbnOhVSuk_OID/view]. 
+This week, I completed my MVP. [Here is a video of my MVP](https://drive.google.com/file/d/1J9DfwWUhtm8GL3jESqdmbnOhVSuk_OID/view). 
 My app now allows users to:
 * Add assignments with a title and due date
 * View all assignments in a list
