@@ -3,11 +3,10 @@
 ## Content
 Over the past week, I continued learning how to use SwiftUI to finish my Student Success App. I focused on improving how my app works and making sure all the main features are complete. I practiced using tools like @State and @Binding to update data, NavigationStack to move between screens, and Lists to display assignments. I also looked back at [tutorials](https://www.youtube.com/watch?v=xkgaIm7QxK0&list=PLMRqhzcHGw1ZHtM5xYcZbJ8oUZ0aVTasI) and [documentations](https://developer.apple.com/documentation/swiftui) and my previous code to fix mistakes and make everything run smoothly.
 
-As I worked, I got better at understanding how different parts of SwiftUI connect. For example, I learned how to pass data between views so that when a user updates something, it changes everywhere in the app. This helped me make my app more interactive and user-friendly.
+As I worked, I got better at understanding how different parts of SwiftUI connect. For example, I learned how to pass data between views so that when a user updates something, it changes everywhere in the app. This helped me make my app more interactive and user-friendly. [Here is a video of my MVP](https://drive.google.com/file/d/1J9DfwWUhtm8GL3jESqdmbnOhVSuk_OID/view).
 
 ### Finishing My MVP
-This week, I completed my MVP. [Here is a video of my MVP](https://drive.google.com/file/d/1J9DfwWUhtm8GL3jESqdmbnOhVSuk_OID/view). 
-My app now allows users to:
+This week, I completed my MVP. My app now allows users to:
 * Add assignments with a title and due date
 * View all assignments in a list
 * Mark assignments as completed
