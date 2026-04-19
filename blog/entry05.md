@@ -24,17 +24,19 @@ assignments[realIndex].isDone.toggle()
 This allows the app to instantly update when a user marks a task as done.
 
 ## Engineering Design Process 
-
+Right now I am in Steps 5 and 6 of the engineering design process, which are building and testing the prototype. I built the main features of my app and tested them to make sure they work correctly. For example, I tested adding assignments, checking them off, and navigating between screens.
 
 ## Skills
-Some skills that I’ve learned from working on this project are **** and ****
+Some skills that I’ve learned from working on this project are **Problem Solving** and **Debugging**
 
-### 
+### Problem Solving
+I used problem solving when figuring out how to connect different parts of my app. For example, I had to figure out how to pass the assignments list from one screen to another and update it correctly.
 
-### 
-
+### Debugging
+I used debugging when things did not work at first. For example, I fixed issues with updating assignments and making sure the correct task was marked as done. I checked my code and tested different solutions until it worked.
 
 ## Summary
+Overall, I made strong progress toward my MVP by building the main features of my Student Success App. Users can now add assignments, view them, and mark them as complete. My next step is to improve the design and add more features, like editing assignments or adding reminders, to make the app even more useful.
 
 [Previous](entry04.md) | [Next](entry06.md)
 
