@@ -70,9 +70,10 @@
 
 #### Beyond MVP
 
-- [ ] Use another API to make sure the opposite example is a noun
-- [ ] Automate notification of API limit to make sure I don’t exceed free quota
-- [ ] A multiple choice quizzer that will test the user’s knowledge of the solution
+- [ ] Mark tasks as done - let students remove finished assignments and tests.
+- [ ] Subtasks for exams - help students write what they need to learn
+- [ ]Reminders - end notifications for upcoming deadlines and tests.
+- [ ] Priority levels - let students mark tasks as high, medium, or low priority.
 
 -->
 
