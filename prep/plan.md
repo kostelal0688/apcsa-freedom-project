@@ -36,17 +36,10 @@
         - [ ]  Display progress bar on dashboard
 
 #### Beyond MVP
-- [ ] **Push notifications with motivational messages or basic reminder notification before due date**
-  - [ ] Morning reminder message
-- [ ] **Streak tracker (days productive in a row)**
-  - [ ] Track consecutive days with completed tasks
-    - [ ] Display streak number on dashboard
-- [ ] **Customizable themes (light / dark mode toggle)**
-  - [ ]  Allow user to choose accent color
-- [ ] **Goal setting page**
-  - [ ] User sets weekly productivity goal
-    - [ ] Show progress toward goal
-
+- [ ] Mark tasks as done - let students remove finished assignments and tests.
+- [ ] Subtasks for exams - help students write what they need to learn
+- [ ] Reminders - end notifications for upcoming deadlines and tests.
+- [ ] Priority levels - let students mark tasks as high, medium, or low priority.
 
 
 
@@ -72,7 +65,7 @@
 
 - [ ] Mark tasks as done - let students remove finished assignments and tests.
 - [ ] Subtasks for exams - help students write what they need to learn
-- [ ]Reminders - end notifications for upcoming deadlines and tests.
+- [ ] Reminders - end notifications for upcoming deadlines and tests.
 - [ ] Priority levels - let students mark tasks as high, medium, or low priority.
 
 -->
