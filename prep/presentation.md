@@ -13,10 +13,10 @@ It acts like a personal school organizer that helps students manage their time a
 * Wireframe Example: Show the wireframe of my project because it helped me plan the layout and organize where each feature would go before building the app.
 
 * MVP: What I did:
- * Created a section where users can add assignments
- * Added due dates for assignments
- * Made the app automatically sort assignments by due date
- * Added an upcoming tests section
+  * Created a section where users can add assignments
+  * Added due dates for assignments
+  * Made the app automatically sort assignments by due date
+  * Added an upcoming tests section
 
 * Beyond MVP:
   * Mark tasks as done - let students remove finished assignments and tests.
