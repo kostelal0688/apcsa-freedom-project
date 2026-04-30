@@ -4,10 +4,7 @@
 * Ever forget about a test coming up or realize an assignment is due at the last minute? Staying organized in school can be stressful, especially when you have multiple classes. What if one app could help you keep track of it all?
 
 ## Product
-* My Student Success App helps students stay organized by keeping track of assignments and upcoming tests. Users can add assignments with due dates, and the app automatically creates a list sorted by the closest due date first. It also shows upcoming tests so students can prepare ahead of time.
-
-It acts like a personal school organizer that helps students manage their time and avoid missing important deadlines.
-
+* My Student Success App helps students stay organized by keeping track of assignments and upcoming tests. Users can add assignments with due dates, and the app automatically creates a list sorted by the closest due date first. It also shows upcoming tests so students can prepare ahead of time. It acts like a personal school organizer that helps students manage their time and avoid missing important deadlines.
 
 ## Process
 * Wireframe Example: Show the wireframe of my project because it helped me plan the layout and organize where each feature would go before building the app.
