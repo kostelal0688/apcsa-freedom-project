@@ -13,8 +13,8 @@ Overall, both presentations helped me become a better speaker and taught me how 
 
 #### Sources
 
-My presentation plan can be found (here)[https://github.com/kostelal0688/apcsa-freedom-project/blob/main/prep/presentation.md].
-The slides from my in-class presentation can be found here: [slides link].
+My presentation plan can be found [here](https://github.com/kostelal0688/apcsa-freedom-project/blob/main/prep/presentation.md).
+The slides from my in-class presentation can be found [here]((https://docs.google.com/presentation/d/1R9CEMr0XM9nTH6jqkzbzTnbQJnRgeBF8UltnwFtrz10/edit?slide=id.p#slide=id.p)).
 
 ## Engineering Design Process
 During this part of the project, I was at step 8 of the engineering design process, which focuses on communicating the results. This stage was all about sharing the final version of my app with others including my classmates, teachers, and judges. It gave me the chance to explain how I built the project, what challenges I faced, and what I learned along the way. Communicating the results was important because it helped me reflect on my work and also get feedback from others. Presenting my project allowed me to practice my public speaking skills and build confidence.
