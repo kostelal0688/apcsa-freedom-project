@@ -1,16 +1,16 @@
 # APCSA Freedom Project
-by **X**
+by **Kostela Lila**
 
 ## Context
 I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering Program](https://hstatsep.github.io/). The "Freedom Project" for AP Computer Science A is a year-long project all about making anything using technology.
 
-For my project, I chose to independently study **X** in order to help me make **X**.
+For my project, I chose to independently study **Swift** in order to help me make **Student Success App**.
 
 ## Links
 
-[Product]()
+[Product](https://drive.google.com/file/d/1J9DfwWUhtm8GL3jESqdmbnOhVSuk_OID/view?pli=1)
 
-[Presentation]()
+[Presentation](https://docs.google.com/presentation/d/1R9CEMr0XM9nTH6jqkzbzTnbQJnRgeBF8UltnwFtrz10/edit?slide=id.p#slide=id.p)
 
 ## Implications
 ##### PROS
