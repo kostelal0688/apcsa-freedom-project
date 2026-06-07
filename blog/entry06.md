@@ -30,6 +30,7 @@ Another important skill I gained was organization. Preparing slides and an eleva
 
 ## Summary 
 To conclude, I am very happy and proud of both my app and my presentation. This project taught me many valuable skills, from coding and design to communication and organization. Sharing my work with others was a rewarding experience, and I feel confident that I grew a lot throughout the process.
+
 [Previous](entry05.md) | [Next](entry07.md)
 
 [Home](../README.md)
