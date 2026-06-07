@@ -21,7 +21,7 @@ The slides from my in-class presentation can be found [here](https://docs.google
 During this part of the project, I was at step 8 of the engineering design process, which focuses on communicating the results. This stage was all about sharing the final version of my app with others including my classmates, teachers, and judges. It gave me the chance to explain how I built the project, what challenges I faced, and what I learned along the way. Communicating the results was important because it helped me reflect on my work and also get feedback from others. Presenting my project allowed me to practice my public speaking skills and build confidence.
 
 ## Skills
-Some skills that I’ve learned from working on this blog are **communication** and **organization**.
+Some skills that I’ve learned from working on this part of my project are **communication** and **organization**.
 ### Communication
 A key skill I developed during this part of the project was communication. Presenting my website to my peers helped me improve as a public speaker. I learned how to explain my ideas clearly and confidently, which made sharing my work much easier and more effective.
 
